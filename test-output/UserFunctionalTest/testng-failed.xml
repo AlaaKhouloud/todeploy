@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UserFunctionalTest]" parallel="none">
+  <parameter name="browser" value="chrome"/>
+  <test name="FF_Browser(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.back.Functionaltests.WebDriverTest">
+        <methods>
+          <include name="deconnexion"/>
+          <include name="seeRecharge"/>
+          <include name="AddVirement"/>
+          <include name="seliniumElements"/>
+          <include name="seeVirement"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="AddRecharge"/>
+        </methods>
+      </class> <!-- com.back.Functionaltests.WebDriverTest -->
+    </classes>
+  </test> <!-- FF_Browser(failed) -->
+  <test name="Chrome_Browser(failed)" parallel="none">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.back.Functionaltests.WebDriverTest">
+        <methods>
+          <include name="deconnexion"/>
+          <include name="seeRecharge"/>
+          <include name="AddVirement"/>
+          <include name="seliniumElements"/>
+          <include name="seeVirement"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="AddRecharge"/>
+        </methods>
+      </class> <!-- com.back.Functionaltests.WebDriverTest -->
+    </classes>
+  </test> <!-- Chrome_Browser(failed) -->
+</suite> <!-- Failed suite [UserFunctionalTest] -->
